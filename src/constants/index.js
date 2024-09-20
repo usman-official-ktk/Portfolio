@@ -24,6 +24,10 @@ import {
   jobit,
   tripguide,
   threejs,
+  occy,
+  rillabox,
+  svenska,
+  thinkCompared,
 } from "../assets";
 
 export const navLinks = [
@@ -178,51 +182,67 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Occy",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A complete end to end SAAS product of recruitment business model",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "redux",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "bootstrap",
         color: "pink-text-gradient",
       },
+      {
+        name: "Styled-component",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Formik",
+        color: "blue-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: occy,
+    // source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Rillabox",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A gaming app having mystery box and battle features.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "redux",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "bootstrap",
         color: "pink-text-gradient",
       },
+      {
+        name: "Styled-component",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Formik",
+        color: "blue-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: rillabox,
+    // source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Think Compared",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Product comparing app with product listing, categories and much more features.",
     tags: [
       {
         name: "nextjs",
@@ -236,9 +256,46 @@ const projects = [
         name: "css",
         color: "pink-text-gradient",
       },
+      {
+        name: "Styled-component",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Formik",
+        color: "blue-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: thinkCompared,
+    // source_code_link: "https://github.com/",
+  },
+  {
+    name: "Svesnka",
+    description:
+      "SvenskaTestamenten is a platform that connects clients and lawyers for will creation. It offers secure chat, document sharing, and real-time collaboration to ensure a smooth and legally compliant process for drafting and finalizing wills.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "green-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Styled-component",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Formik",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: svenska,
+    // source_code_link: "https://github.com/",
   },
 ];
 
